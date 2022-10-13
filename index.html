@@ -18,8 +18,9 @@
         Vous allez bientôt être redirigé...
     </p>
     <script>
+
         setTimeout(() => {
-            window.top.location.href = window.top.location.href
+            window.top.postMessage('refresh')
         }, 2000)
     </script>
 </body>
