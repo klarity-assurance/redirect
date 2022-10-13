@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <style>
+        p {
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 1.5rem;
+            align-items: center;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Vous allez bientôt être redirigé...
+    </p>
+    <script>
+        setTimeout(() => {
+            window.top.location.href = window.top.location.href
+        }, 2000)
+    </script>
+</body>
+
+</html>
